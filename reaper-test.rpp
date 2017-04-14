@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "5.40/x64" 1492158800
+<REAPER_PROJECT 0.1 "5.40/x64" 1492159064
   RIPPLE 0
   GROUPOVERRIDE 0 0 0
   AUTOXFADE 1
@@ -12,13 +12,13 @@
   GRID 3199 8 1 8 1 0 0 0
   TIMEMODE 1 5 -1 30 0
   PANMODE 3
-  CURSOR 0.125
+  CURSOR 1.75
   ZOOM 100 0 0
   VZOOMEX 6
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
-  LOOP 0
+  LOOP 1
   LOOPGRAN 0 4
   RECORD_PATH "" ""
   <RECORD_CFG
@@ -140,16 +140,38 @@
       <SOURCE MIDI
         HASDATA 1 960 QN
         POOLEDEVTS {0F69C67A-833E-40EE-98F3-A230F3F5BEC9}
-        E 3840 b0 7b 00
+        E 0 90 35 60
+        E 240 80 35 00
+        E 240 90 35 60
+        E 240 80 35 00
+        E 240 90 35 60
+        E 240 80 35 00
+        E 0 90 41 60
+        E 240 80 41 00
+        E 240 90 41 60
+        E 120 80 41 00
+        E 120 90 40 60
+        E 120 80 40 00
+        E 120 90 3c 60
+        E 120 80 3c 00
+        e 360 90 3c 60
+        e 120 80 3c 00
+        E 120 90 3c 60
+        E 120 80 3c 00
+        E 120 90 3f 60
+        E 120 80 3f 00
+        E 120 90 3c 60
+        E 120 80 3c 00
+        E 360 b0 7b 00
         GUID {D8B7B409-2635-40D3-98F6-0107B86E1ECD}
         IGNTEMPO 0 120 4 4
         SRCCOLOR 2
         VELLANE -1 100 0
-        CFGEDITVIEW 0 0.178385 61 12 0 -1 0 0 0 0.5
+        CFGEDITVIEW 130.35102 0.250271 55 12 0 -1 0 0 0 0.5
         KEYSNAP 0
         TRACKSEL 0
         EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
-        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 1 1 846 379 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 3 3 1106 675 0 0 0 0 0 0 0 0 0 0.5 0 0 1 64
       >
     >
   >
